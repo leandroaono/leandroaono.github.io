@@ -30,7 +30,6 @@ article {
     margin: auto;
 }
 
-
 main div {
     margin: auto;
     padding: 30px 20px;
@@ -44,7 +43,7 @@ main li {
 
 p {
 	text-align: justify;
-	margin: 15px 0;
+	margin: 10px 0;
 }
 
 nav {
@@ -58,13 +57,6 @@ nav {
 
 nav a {
 	color: inherit;
-    
-}
-
-nav h1 {
-	font-size: 30px;
-	margin-bottom: 25px;
-    
 }
 
 nav li {
@@ -75,6 +67,5 @@ nav li {
 iframe {
     margin: 0 auto;
     display: block;
-    
 }
 
