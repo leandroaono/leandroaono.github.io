@@ -7,13 +7,15 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 35px;
     background-color: darkgreen;
     color: white;
-    padding: 30px;
+    padding: 20px;
     border: 5px outset green;
     margin: 0;
     text-align: center;
+    text-transform: uppercase;
+    
 }
 
 h2 {
@@ -67,5 +69,7 @@ nav li {
 iframe {
     margin: 0 auto;
     display: block;
+    width: 420;
+    height: 300;
 }
 
