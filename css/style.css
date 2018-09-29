@@ -1,7 +1,7 @@
 body {
     background-color: #C0FFC0;
     font-size: 120%;
-    font-family: "Arial", serif;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     width: 720px;
     margin: auto;
 }
@@ -15,7 +15,6 @@ h1 {
     margin: 0;
     text-align: center;
     text-transform: uppercase;
-    
 }
 
 h2 {
@@ -50,11 +49,8 @@ p {
 
 nav {
 	background-color: darkgreen;
-	color: white;
-    text-align: center;
-    padding: 0px;
-    border: 5px outset green;
-    
+  text-align: center;
+  border: 5px outset green;
 }
 
 nav a {
@@ -63,13 +59,20 @@ nav a {
 
 nav li {
     display: inline-block;
+    font-size: 20px;
     margin: 0 5px;
+    font-weight: bold;
 }
 
-iframe {
-    margin: 0 auto;
-    display: block;
-    width: 420;
-    height: 300;
+.youtube {
+  margin: 0 auto;
+  display: block;
 }
 
+.nav-item {
+  color: #FFFFFF;
+}
+
+.nav-item-over {
+  color: #B0B0B0;
+}

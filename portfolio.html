@@ -10,9 +10,9 @@
         <h1 id="top">Portfólio</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="portfolio.html">Portfólio</a></li>
-                <li><a href="contato.html">Contato</a></li>
+                <li class=nav-item onmouseover="MouseOver(this);" onmouseout="MouseOut(this);"><a href="index.html">Home</a></li>
+                <li class=nav-item onmouseover="MouseOver(this);" onmouseout="MouseOut(this);"><a href="portfolio.html">Portfólio</a></li>
+                <li class=nav-item onmouseover="MouseOver(this);" onmouseout="MouseOut(this);"><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
         <main>
@@ -25,22 +25,20 @@
                     <li><a href="#herodefense">Jogo 2D estilo Defense com física</a></li>
                     <li><a href="#classdefense">Jogo 2D estilo Defense/RPG</a></li>
                 </lu>
-                
+
                 <article id="tcc">
                     <h2>TCC</h2>
                     <p>Desenvolvido na linguagem C++ com auxílio da biblioteca <a href=https://liballeg.org>Allegro</a>.</p>
                     <p>O objetivo principal desse trabalho foi desenvolver um simulador para testes de Inteligência Artificial em <a href=https://pt.wikipedia.org/wiki/Estrat%C3%A9gia_em_tempo_real>jogo de estratégia em tempo real</a>.</p>
                     <p>Para mais informações clique <a href=https://www.linux.ime.usp.br/~laono/mac499>aqui</a>.</p>
-                    <iframe width="420" height="315" 
-                    src="https://www.youtube.com/embed/xuy8BiNEu8g">
-                    </iframe>
-                    <a href="#top">Voltar ao topo</a>
+                    <object class=youtube data="https://www.youtube.com/embed/xuy8BiNEu8g" width="420" height="315"></object>
+                    <p><a href="#top">Voltar ao topo</a></p>
                 </article>
 
-                <article id="clashofclans"> 
-                    <h2>Montador de vilas do jogo Clash of Clans</h2> 
+                <article id="clashofclans">
+                    <h2>Montador de vilas do jogo Clash of Clans</h2>
                     <p>Desenvolvido na linguagem Java com auxílio do widget toolkit <a href=https://en.wikipedia.org/wiki/Swing_(Java)>Swing</a>.</p>
-                    <p><a href=https://supercell.com/en/games/clashofclans>Clash of Clans</a> é um jogo dos jogos mais famosos de estratégia feito para mobile, desenvolvido pela 
+                    <p><a href=https://supercell.com/en/games/clashofclans>Clash of Clans</a> é um jogo dos jogos mais famosos de estratégia feito para mobile, desenvolvido pela
                         <a href=https://supercell.com>Supercell</a>, possui mais de 100 milhões de downloads na Google Store.</p>
                     <p>Antigamente, quando jogo Clash of Clans não possuia editor de layouts, desenvolvi esse programa para facilitar a criação de novos layouts de defesa.</p>
                     <p>O projeto possui:</p>
@@ -51,16 +49,14 @@
                         <li>GUI do usuário;</li>
                         <li>Controle com mouse e teclado.</li>
                     </lu>
-                    <iframe width="420" height="315"
-                    src="https://www.youtube.com/embed/4GtKe60ioqQ">
-                    </iframe>
+                    <object class=youtube data="https://www.youtube.com/embed/4GtKe60ioqQ" width="420" height="315"></object>
                     <p>Link para download(.jar): <a href=https://drive.google.com/file/d/1DWQbSvba3YVeUW8VkyriLNf1YOJTcwwV/view>baixar</a></p>
-                    <a href="#top">Voltar ao topo</a>
+                    <p><a href="#top">Voltar ao topo</a></p>
                 </article>
-                <article id="tetris"> 
+                <article id="tetris">
                     <h2>Jogo Tetris</h2>
                     <p>Desenvolvido na linguagem Lua com auxílio do <a href=https://coronalabs.com>Corona SDK</a>.</p>
-                    <p>Esse foi o meu primeiro jogo criado para Android. Ele possui as funcionalidades básicas do <a href=https://en.wikipedia.org/wiki/Tetris>Tetris</a> e algumas 
+                    <p>Esse foi o meu primeiro jogo criado para Android. Ele possui as funcionalidades básicas do <a href=https://en.wikipedia.org/wiki/Tetris>Tetris</a> e algumas
                         implentações extras:</p>
                     <lu>
                         <li><b>Modo Endless</b>: o jogo termina apenas quando não tiver espaço para a próxima peça; </li>
@@ -69,19 +65,17 @@
                         <li><b>Level</b>: número de linhas iniciais geradas aleatoriamente; </li>
                         <li><b>Speed</b>: velocidade que o bloco desce.</li>
                     </lu>
-                    <iframe width="420" height="315"
-                    src="https://www.youtube.com/embed/rOszLoKYvLM">
-                    </iframe>
+                    <object class=youtube data="https://www.youtube.com/embed/rOszLoKYvLM" width="420" height="315"></object>
                     <p>Link para download(.apk): <a href=https://drive.google.com/file/d/1EeLor5uu1qmv5t4ZTbTOna6a51SV5fA2/view>baixar</a></p>
-                    <a href="#top">Voltar ao topo</a>
+                    <p><a href="#top">Voltar ao topo</a></p>
                 </article>
-                <article id="herodefense"> 
+                <article id="herodefense">
                     <h2>Jogo 2D estilo Defense com física</h2>
                     <p>Desenvolvido na linguagem C# com auxílio da engine <a href=https://unity3d.com>Unity.</a></p>
-                    <p>Inspirado no jogo <a href=https://www.ironhidegames.com/Games/clash-of-the-olympians>Clash of the Olympians</a>, 
+                    <p>Inspirado no jogo <a href=https://www.ironhidegames.com/Games/clash-of-the-olympians>Clash of the Olympians</a>,
                         foi o meu primeiro jogo utilizando a engine Unity. Trata-se de um jogo de ação com alguns elementos de RPG.
                         A idéia principal desse jogo é defender a torre controlando um personagem do jogo onde é possível atirar flechas nos inimigos.</p>
-                    <p>Esse jogo possui as seguintes funcionalidades:</p>                
+                    <p>Esse jogo possui as seguintes funcionalidades:</p>
                     <lu>
                         <li>Sistema de vida e energia;</li>
                         <li>Sistema de nível e habilidades;</li>
@@ -98,19 +92,17 @@
                         <li> Criação de uma nova interface para transição dessas fases;</li>
                         <li> Melhoria no sistema de salvar o estado do jogo.</li>
                     </lu>
-                    <iframe width="420" height="315"
-                    src="https://www.youtube.com/embed/pYzXzq68FpM">
-                    </iframe>
+                    <object class=youtube data="https://www.youtube.com/embed/pYzXzq68FpM" width="420" height="315"></object>
                     <p>Link para download(.apk): <a href=https://drive.google.com/file/d/1X4yU-ZfQy0DkWuDO2sxHcO8RMQjZY_1h/view>baixar</a></p>
-                    <a href="#top">Voltar ao topo</a>
+                    <p><a href="#top">Voltar ao topo</a></p>
                 </article>
-                <article id="classdefense"> 
+                <article id="classdefense">
                     <h2>Jogo 2D estilo Defense/RPG</h2>
                     <p>Desenvolvido na linguagem C# com auxílio da engine <a href=https://unity3d.com>Unity</a>.
                     <p>Inspirado no sistema de rotação de habilidades do jogo <a href=https://worldofwarcraft.com>World of Warcraft</a>,
                         este é o meu segundo jogo utilizando a engine Unity. Trata-se também de um jogo de ação com alguns elementos de RPG.
                         O objetivo desse jogo é eliminar os inimigos utilizando habilidades do personagem controlada pelo jogador.</p>
-                    <p>Esse jogo possui as seguintes funcionalidades:</p>                
+                    <p>Esse jogo possui as seguintes funcionalidades:</p>
                     <lu>
                         <li>Sistema de vida e energia;</li>
                         <li>Sistema de nível e habilidades;</li>
@@ -128,14 +120,12 @@
                         <li>Melhorar sistema de salvar e carregar o estado do jogo;</li>
                         <li>Implementar fases do jogo.</li>
                     </lu>
-                    <iframe width="420" height="315"
-                    src="https://www.youtube.com/embed/Q6K4ZZrlwDA">
-                    </iframe>
+                    <object class=youtube data="https://www.youtube.com/embed/Q6K4ZZrlwDA" width="420" height="315"></object>
                     <p>Link para download(.apk): <a href=https://drive.google.com/file/d/10MvgQozJ1ctr_yjnKJg5Gt9SVMe170VN/view>baixar</a></p>
-                    <a href="#top">Voltar ao topo</a>
+                    <p><a href="#top">Voltar ao topo</a></p>
                 </article>
             </div>
         </main>
+        <script src="js/script.js"></script>
     </body>
 </html>
-
